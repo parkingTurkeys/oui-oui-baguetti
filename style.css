@@ -1,0 +1,121 @@
+#back {
+    visibility: hidden;
+    cursor : pointer;
+}
+body{
+    background-image: url("baguette.png");
+    background-repeat:repeat;
+    background-size:30px 30px;
+    color:rgb(24, 24, 24);
+    font-family: "Verdana";
+    font-weight: 100;
+    animation-name: "lightmodeanim";
+    animation-duration: 1s;
+    font-size:2em;
+}
+
+button{
+    color : rgb(224, 224, 224);
+    background-color: rgb(107, 107, 107);
+    border-style: none;
+    border-radius: 20px;
+}
+
+#body button:hover {
+   box-shadow: #6c6c6c 0 0 90px;
+}
+
+a{
+color:black;
+}
+
+#title{
+    font-variant: small-caps;
+    font-size: 120%;
+}
+
+a:hover{
+    animation-name: glowonanim;
+    animation-duration: 0.2s;
+    cursor:pointer;
+}
+
+
+#article-link{
+    color : #1e1e1e;
+    /*background-color : #c8c8f5a7;
+    padding:1em;
+    padding-right: 90%;
+    border-radius: 1em;
+    ;*/
+}
+
+#blogTitle {
+    color:red;
+    font-weight: 600;
+}
+#bullet {
+    color:red;
+    background-color:rgba(255, 255, 255, 0);
+    height:2em;
+    width:1.1em;
+    border:none;
+}
+
+#subtitle{
+    font-size: 0.8em;
+    opacity: 70%;
+    margin-left: 10px;
+}
+/* After this it's dark mode settings */
+
+.darkmode{
+    animation-name: darkmodeanim;
+    animation-duration: 0.5s;
+    background-color: #1e1e1e;
+    color : #ffffffcf;
+}
+
+.darkmode a{
+    color:white; 
+}
+
+
+#fourofour {
+    font-size: 1000%;
+    color:red;
+}
+
+.img {
+    border-radius: 10px;
+    height:200px;
+}
+
+/*animations*
+
+@keyframes biggeranim{
+    from {transform:scale(1)};
+    to {transform:scale(1.1);};
+}
+
+@keyframes smalleranim{
+    from {transform:scale(1);}
+    to {transform:scale(1.1);}
+}
+
+@keyframes darkmodeanim {
+    from {background-color: white;}
+    to {background-color: #1e1e1e;}
+}
+
+@keyframes lightmodeanim {
+    from {background-color: #1e1e1e;}
+    to {background-color: white;}
+}
+
+@keyframes glowonanim {
+    from {box-shadow: none;}
+    to {box-shadow: #ffffff 0 0 90px ;}
+}
+
+deleting animations b/c i want to
