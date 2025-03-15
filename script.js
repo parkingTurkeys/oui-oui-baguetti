@@ -1,7 +1,8 @@
 
 
 getArticles()
-
+let bgsize = 30
+let diff = 1
 
 function replaceArticle(indexOfArticle) {
     document.getElementById("article").innerHTML = articles[indexOfArticle]
@@ -36,4 +37,16 @@ function darkmode() {
 
 function ccby() {
     alert( "This work is licensed under CC BY-NC 4.0" )
+}
+
+setInterval(bgsizing, 10)
+
+function bgsizing() {
+    if (bgsize = 60) {
+        diff = -1
+    } else if (bgsize = 5) {
+        diff = 1
+    }
+    bgsize += diff
+    getElementsByTagName("body")[0].style.background_size = bgsize
 }
