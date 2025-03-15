@@ -48,5 +48,5 @@ function bgsizing() {
         diff = 1
     }
     bgsize += diff
-    getElementsByTagName("body")[0].style.background_size = bgsize
+    document.getElementsByTagName("body")[0].style.background_size = bgsize
 }
