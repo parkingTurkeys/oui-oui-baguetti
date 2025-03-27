@@ -1,10 +1,10 @@
 const articleNames = [
-    "Ballet article", 
+    "Dancers Image", 
     "Hey there!"
 ]
 
 const articleSubtitles = [
-    "boring", 
+    "a pointe-less waste of money", 
     "jack :p"
 ]
 
