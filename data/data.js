@@ -23,6 +23,5 @@ Schools should have later start times because later start times in middle and hi
 ]
 
 const titles = [
-    "ballet is boringggg", 
-    "hey"
+    "School Start Times and Students"
 ]
